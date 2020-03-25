@@ -217,6 +217,12 @@
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom">
                                 <div class="gdlr-core-pbf-column gdlr-core-column-first">
 
+                                    <script>
+                                      function resizeIframe(obj) {
+                                        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+                                      }
+                                    </script>
+
                                     <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="padding: 0px 200px 100px 200px;">
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                             <div style="padding-top: 40px" class="gdlr-core-pbf-element">
@@ -230,8 +236,8 @@
                                     <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="padding: 0px 200px 100px 200px;">
                                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
                                             <div style="padding-top: 40px" class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-center-align">
-                                                    <video width="100%" height="auto" controls>
+                                                <div class="gdlr-core-image-item gdlr-core-item-pdlr gdlr-core-item-pdb  gdlr-core-center-align" id="reference">
+                                                    <video width="100%" height="auto" controls >
                                                       <source src="https://www.eaj-pnv.eus/adjuntos/pnvVideos/3164_video.mp4" type="video/mp4">
                                                       Your browser does not support the video tag.
                                                     </video>
@@ -239,6 +245,33 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="padding: 0px 200px 100px 200px;">
+                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                            <div style="padding-top: 40px" class="gdlr-core-pbf-element">
+                                                
+                                                    <iframe src="https://streamable.com/s/ufblr/cozwlo" width="0" height="0" frameborder="0" onload="resizeIframe(this)" allowfullscreen></iframe>
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="padding: 0px 200px 100px 200px;">
+                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js ">
+                                            <div style="padding-top: 40px" class="gdlr-core-pbf-element">
+                                                
+                                                    <iframe src="https://streamable.com/s/bm0c7/lilsox" width="0" height="0" frameborder="0" onload="resizeIframe(this)" allowfullscreen></iframe>
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <script>
+                                      function resizeIframe(obj) {
+                                        obj.width = document.getElementById("reference").scrollWidth;
+                                        obj.height = document.getElementById("reference").scrollHeight;
+                                      }
+                                    </script>
 
                                 </div>
                             </div>
