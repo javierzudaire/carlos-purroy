@@ -486,7 +486,23 @@ html.mm-opened body.admin-bar .kleanity-header-side-nav{ padding-top: 0px; }
 .kleanity-fixed-navigation.kleanity-style-fixed,
 .kleanity-fixed-navigation.kleanity-style-slide{ position: fixed; top: 0px; left: 0px; right: 0px; z-index: 99; 
 	box-shadow: 0px 1px 2px rgba(0,0,0,0.1); -webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.1); }
-.kleanity-fixed-navigation.kleanity-style-slide img{ padding-top: 15px }
+.kleanity-fixed-navigation.kleanity-style-slide img{ padding-top: 0px }
+
+@media only screen and (min-width: 1000px) and (max-width: 1170px){ 
+	.kleanity-fixed-navigation.kleanity-style-slide img{ padding-top: 15px }
+}
+@media only screen and (min-width: 1171px) and (max-width: 1400px){ 
+	.kleanity-fixed-navigation.kleanity-style-slide img{ padding-top: 15px }
+}
+@media only screen and (min-width: 1401px) and (max-width: 1600px){ 
+	.kleanity-fixed-navigation.kleanity-style-slide img{ padding-top: 15px }
+}
+@media only screen and (min-width: 1601px) and (max-width: 1800px){ 
+	.kleanity-fixed-navigation.kleanity-style-slide img{ padding-top: 15px }
+}
+@media only screen and (min-width: 1801px){ 
+	.kleanity-fixed-navigation.kleanity-style-slide img{ padding-top: 15px }
+}
 
 body.kleanity-sticky-navigation-no-logo .kleanity-fixed-navigation .kleanity-logo{ display: none; }
 body.kleanity-sticky-navigation-no-logo .kleanity-mobile-header.kleanity-fixed-navigation .kleanity-logo{ display: block; }

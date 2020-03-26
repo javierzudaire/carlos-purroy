@@ -16,6 +16,34 @@
 
     <link rel='stylesheet' href='css/font-awesome.css' type='text/css' media='all' />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154932920-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-154932920-2');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body data-rsssl=1 class="home page-template-default page page-id-2039 gdlr-core-body woocommerce-no-js kleanity-body kleanity-body-front kleanity-full  kleanity-with-sticky-navigation gdlr-core-link-to-lightbox">
@@ -23,8 +51,8 @@
         <div class="kleanity-mobile-header kleanity-header-background kleanity-style-slide" id="kleanity-mobile-header">
             <div class="kleanity-mobile-header-container kleanity-container">
                 <div class="kleanity-logo  kleanity-item-pdlr">
-                    <div style="margin-top: 2px" class="kleanity-logo-inner">
-                        <a href="index.html"><img style="height: 43px" src="images/logo.png" alt="" /></a>
+                    <div style="margin-top: -3px; margin-bottom: -4px" class="kleanity-logo-inner">
+                        <a href="index.html"><img style="height: auto ;margin-top: 5px" src="images/logo.png" alt="" /></a>
                     </div>
                 </div>
                 <div class="kleanity-mobile-menu-right">
@@ -201,24 +229,24 @@
                                                     <div role="form" class="wpcf7 " id="wpcf7-f1319-p1964-o1" lang="en-US" dir="ltr">
                                                         <div class="screen-reader-response"></div>
 
-                                                        <form class="quform" action="quform/process.php" method="post" enctype="multipart/form-data" onclick="">
+                                                        <form action="send-mail.php" method="post" enctype="multipart/form-data" onclick="">
 
                                                             <div class="quform-elements gdlr-core-input-wrap gdlr-core-large gdlr-core-full-width gdlr-core-with-column gdlr-core-no-border">
                                                                 <div class="gdlr-core-column-60">
                                                                     <span class="quform-element wpcf7-form-control-wrap your-name">
-                                                                        <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nombre*">
+                                                                        <input type="text" name="nombre" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nombre*">
                                                                     </span>
                                                                 </div>
                                                                 <div class="gdlr-core-column-60">
                                                                     <span class="quform-element wpcf7-form-control-wrap your-email">
-                                                                        <input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email*">
+                                                                        <input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email*">
                                                                     </span>
                                                                 </div>
                                                                 <div class="clear"></div>
 
                                                                 <div class="gdlr-core-column-60">
                                                                     <span class="quform-element wpcf7-form-control-wrap your-message">
-                                                                        <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Mensaje*"></textarea>
+                                                                        <textarea name="mensaje" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Mensaje*"></textarea>
                                                                     </span>
                                                                 </div>
                                                                 <div class="gdlr-core-column-60">
@@ -246,7 +274,7 @@
                         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
                                 <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-center-align gdlr-core-item-pdlr"><a href="mailto:carlospurroy@carlospurroyesculturas.com" target="_blank" class="gdlr-core-social-network-icon" title="email" style="font-size: 20px;color: #1e1e1e;"><i class="fa fa-envelope"></i></a><a href="https://www.facebook.com/carlos.purroygonzalez" target="_blank" class="gdlr-core-social-network-icon" title="facebook" style="font-size: 20px;color: #1e1e1e;margin-left: 40px;"><i class="fa fa-facebook"></i></a><a href="https://www.instagram.com/carlos.purroy" target="_blank" class="gdlr-core-social-network-icon" title="instagram" style="font-size: 20px;color: #1e1e1e;margin-left: 40px;"><i class="fa fa-instagram"></i></a></div>
+                                    <div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-center-align gdlr-core-item-pdlr"><a href="mailto:carlos@carlospurroyesculturas.com" target="_blank" class="gdlr-core-social-network-icon" title="email" style="font-size: 20px;color: #1e1e1e;"><i class="fa fa-envelope"></i></a><a href="https://www.facebook.com/carlos.purroygonzalez" target="_blank" class="gdlr-core-social-network-icon" title="facebook" style="font-size: 20px;color: #1e1e1e;margin-left: 40px;"><i class="fa fa-facebook"></i></a><a href="https://www.instagram.com/carlos.purroy" target="_blank" class="gdlr-core-social-network-icon" title="instagram" style="font-size: 20px;color: #1e1e1e;margin-left: 40px;"><i class="fa fa-instagram"></i></a></div>
                                 </div>
                             </div>
                         </div>
