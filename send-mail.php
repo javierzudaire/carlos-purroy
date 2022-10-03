@@ -112,7 +112,7 @@ try {
 }
 
 // Hasta aqui el envio de mail
-$vamos = "Location: http://test.carlospurroyesculturas.com/contacto.html";
+$vamos = "Location: https://carlospurroyesculturas.com/contacto.html?status=sent#message";
 
 header( $vamos );
 exit();
